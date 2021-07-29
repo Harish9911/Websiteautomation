@@ -15,7 +15,11 @@ public class RandomGit {
 
 		
 	public static void main(String[] args) throws InterruptedException {
+			// this is line number1
 			
+			WebDriver driver = new OperaDriver();
+			
+			// this is line number 2
 			System.setProperty("webdriver.opera.driver", "D:\\webdriverproject\\WebsiteAutomation\\Drivers\\operadriver.exe");
 			
 		WebDriver driver = new OperaDriver();

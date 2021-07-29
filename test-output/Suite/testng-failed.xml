@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.Pageobjects.automation.Loginpage">
+        <methods>
+          <include name="close"/>
+          <include name="closebrowser"/>
+          <include name="openbrowser"/>
+          <include name="afterTCexecution"/>
+          <include name="open"/>
+          <include name="beforeTCexcecution"/>
+        </methods>
+      </class> <!-- com.Pageobjects.automation.Loginpage -->
+      <class name="com.Pageobjects.automation.Testsite">
+        <methods>
+          <include name="teardown"/>
+          <include name="run"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- com.Pageobjects.automation.Testsite -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
